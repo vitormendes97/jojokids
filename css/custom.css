@@ -1,0 +1,52 @@
+/*
+    *   CSS SalãoVIP     
+*/
+
+.topWrap .logo img {
+    height: 100px;
+}
+
+.topWrap .logo.logo_left {
+    height: 100px;
+}
+
+.topWrap .logo {
+    padding-top: 0;
+} 
+
+.main .content .post .post_video {
+    font-size: 26px;
+    text-align: center;
+}
+
+.svip-video-title {
+    text-align: center;
+}
+
+/*.video-article {
+	margin-right: 20px;
+}*/
+
+.sc_video_player {
+	width: 540px;
+}
+
+.copyWrap .copy .copyright {
+	float: none;
+	text-align: center;
+}
+
+
+@media (max-width: 750px) {
+	.svip-video-title {
+		padding-bottom: 10px;
+	}
+
+	#video-space .video-spacing-mb {
+		top: 225px !important;
+	}
+
+	#video-space {
+		margin-bottom: 30px;
+	}
+}
