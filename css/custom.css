@@ -73,11 +73,58 @@
  	margin-top: 80px;
 }
 
+
+.bg-vingadores {
+    background: url('../images/temas/vingadores/bg-vingadores.jpg');
+    background-position:100% 25% !important;
+    background-repeat:no-repeat;
+    background-size:cover;
+}
+
+.bg-barbie {
+    background: url('../images/temas/barbie/barbiebg.jpg');
+    background-size:cover;
+    background-position: 100% 8% !important; 
+}
+
+.btn-submit-svip > button {
+    background: #1bb4b9 !important;
+    color: #fff !important;
+}
+
+.logo_fixed:before {
+    content: 'Jojo Kids';
+    color: #1BB4B9;
+    font-family: 'Fredoka One', cursive;
+    font-weight: 400;
+    border:none;
+}
+
+.logo-fixed {
+    visibility: hidden;
+}
+
+
+
 @media (max-width: 750px) {
 	.sc_column_item .espaco-descricao {
 		font-size: 19px;
 		line-height: normal;
 	}
+    
+    .bg-vingadores {
+        background: url('../images/temas/vingadores/bg-vingadores.jpg');
+        background-position: center center !important;
+        background-repeat:no-repeat;
+        background-size:cover;
+    }
+    
+    .bg-barbie {
+        background: url('../images/temas/barbie/barbiebg.jpg');
+        background-size:cover;
+        background-position: center !important; 
+    }
+
 	.hidden-xs {
 		display: none;
 	}
@@ -102,4 +149,24 @@
 	 	margin: 0 auto;
 	 	margin-top: 150px;
 	}
+    
+    .topWrap .logo img {
+        height: 100px;
+        display: block;
+        margin: 0 auto;
+    }
+    
+    .btn-submit-svip , .btn-submit-svio > button {
+        float: none !important;
+        display: block !important;
+    }
+    
+    .btn-submit-svip > button {
+       margin: 0 auto;
+        margin-top: 20px;
+    }
+    
+    .element2 {
+        left: 58% !important;
+    }
 }
