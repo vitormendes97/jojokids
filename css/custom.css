@@ -81,6 +81,13 @@
     background-size:cover;
 }
 
+.bg-brinquedao {
+    background: url('../images/temas/brinquedao/brinquedao.jpg');
+    background-position:100% 100% !important;
+    background-repeat:no-repeat;
+    background-size:cover;
+}
+
 .bg-barbie {
     background: url('../images/temas/barbie/barbiebg.jpg');
     background-size:cover;
@@ -105,6 +112,30 @@
 }
 
 
+
+.item-title {
+    padding-bottom: 0 !important;
+    color: #000;
+    font-family: 'Fredoka One', cursive;
+    display: block;
+}
+
+.item-icon , .item-content{
+    display: inline-block;
+}
+
+.item-icon > i {
+    width: 40px;
+    text-align: center;
+}
+
+.item-icon {
+    line-height: 3;
+}
+
+.item-content {
+    padding-left: 20px;
+}
 
 @media (max-width: 750px) {
 	.sc_column_item .espaco-descricao {
