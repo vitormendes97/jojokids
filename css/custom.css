@@ -2,6 +2,10 @@
     *   CSS SalãoVIP     
 */
 
+.resize {
+    height: 290px !important;
+}
+
 .topWrap .logo img {
     height: 100px;
 }
@@ -60,11 +64,15 @@
 }
 
 .bg-first {
-	background: url('../images/temas/monsterhigh/bg1.png');
+	background: url('../images/temas/baby/bg1.png');
 }
 
+.sc_column_item .espaco-descricao {
+	font-size: 19px;
+}
+/*
 .bg-first .bg-logo {
-	background: url('../images/temas/monsterhigh/monster-logo.png');
+	background: url('../images/temas/baby/monster-logo.png');
  	width: 300px; 
  	height: 300px;
  	background-size: contain;
@@ -72,6 +80,7 @@
  	margin: 0 auto;
  	margin-top: 80px;
 }
+*/
 
 
 .bg-vingadores {
@@ -172,7 +181,7 @@
 	}
 
 	.bg-first .bg-logo {
-		background: url('../images/temas/monsterhigh/monster-logo.png');
+		background: url('../images/temas/baby/monster-logo.png');
 	 	width: 150px; 
 	 	height: 150px;
 	 	background-size: contain;
@@ -199,5 +208,9 @@
     
     .element2 {
         left: 58% !important;
+    }
+    
+    .resize {
+        height: 185px !important;
     }
 }

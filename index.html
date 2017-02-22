@@ -4,13 +4,19 @@
 	<meta charset="UTF-8"/>
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 	<meta name="format-detection" content="telephone=no">
-	<title>KidsCare HTML</title>
+	<title>Jojo Kids</title>
 	<link rel="icon" type="image/x-icon" href="images/favicon.ico"/>
 	<!--[if lt IE 9]>
 		<script src="js/vendor/html5.js" type="text/javascript"></script>
 	<![endif]-->
 	<link rel='stylesheet' href='js/vendor/revslider/rs-plugin/css/settings.css' type='text/css' media='all'/>
 	<link rel='stylesheet' href='css/__packed.css' type='text/css' media='all'/>
+	<link rel='stylesheet' href='js/vendor/the-events-calendar/vendor/bootstrap-datepicker/css/datepicker.css' type='text/css' media='all'/>
+	<link rel='stylesheet' href='js/vendor/the-events-calendar/resources/tribe-events-full.min.css' type='text/css' media='all'/>
+	<link rel='stylesheet' href='js/vendor/the-events-calendar/resources/tribe-events-theme.min.css' type='text/css' media='all'/>
+	<link rel='stylesheet' href='js/vendor/the-events-calendar/resources/tribe-events-full-mobile.min.css' type='text/css' media='only screen and (max-width: 768px)'/>
+	<link rel='stylesheet' href='js/vendor/the-events-calendar/resources/tribe-events-theme-mobile.min.css' type='text/css' media='only screen and (max-width: 768px)'/>
+	<link rel='stylesheet' href='css/tribe-style.css' type='text/css'>
 	<link rel='stylesheet' href='css/fontello/css/fontello.css' type='text/css' media='all'/>
 	<link rel='stylesheet' href='css/fontello/css/animation.css' type='text/css' media='all'/>
 	<link rel='stylesheet' href='css/style.css' type='text/css' media='all'/>
@@ -38,7 +44,7 @@
 						<div class="main with_logo_left">
 							<div class="logo logo_left">
 								<a href="index.html">
-									<img src="images/logo.jpg" class="logo_main" alt="">
+									<img src="images/logo.png" class="logo_main" alt="">
 									<img src="" class="logo_fixed" alt="">
 									<span class="logo_slogan"></span>
 								</a>
@@ -95,7 +101,7 @@
 												<a href="barbie.html">Sala da Barbie</a>
 											</li>
 												<li class="menu-item">
-												<a href="monsterhigh.html">Sala da Monster High</a>
+												<a href="baby.html">Sala Baby Kids</a>
 											</li>
 											<li class="menu-item">
 												<a href="brinquedao.html">Brinquedão</a>
@@ -228,17 +234,23 @@
 								</div>
 								<div class="tp-caption lfl rs-parallaxlevel-3" data-x="center" data-hoffset="-492" data-y="bottom" data-voffset="-348" data-speed="1000" data-start="2500" data-easing="Power3.easeInOut" data-elementdelay="0.1" data-endelementdelay="0.1" data-endspeed="300">
 									<div class="tp-layer-inner-rotation   rs-slideloop" data-easing="Power3.easeInOut" data-speed="2" data-xs="-10" data-xe="10" data-ys="0" data-ye="0">
-										<img src="images/babbysitter-slider-cloud-1a.png" alt="">
+										<a href="vingadores.html">
+											<img src="images/babbysitter-slider-cloud-1a.png" alt="" style="cursor:pointer;">
+										</a>
 									</div>
 								</div>
 								<div class="tp-caption lft rs-parallaxlevel-4" data-x="center" data-hoffset="-73" data-y="bottom" data-voffset="-548" data-speed="1000" data-start="3500" data-easing="Power3.easeInOut" data-elementdelay="0.1" data-endelementdelay="0.1" data-endspeed="300">
 									<div class="tp-layer-inner-rotation   rs-slideloop" data-easing="Power3.easeInOut" data-speed="2" data-xs="-15" data-xe="15" data-ys="0" data-ye="0">
-										<img src="images/babbysitter-slider-cloud-2a.png" alt="">
+										<a href="#">
+											<img src="images/babbysitter-slider-cloud-2a.png" alt="" style="cursor:pointer;">
+										</a>
 									</div>
 								</div>
 								<div class="tp-caption lfl rs-parallaxlevel-5" data-x="center" data-hoffset="470" data-y="bottom" data-voffset="-440" data-speed="1000" data-start="4500" data-easing="Power3.easeInOut" data-elementdelay="0.1" data-endelementdelay="0.1" data-endspeed="300">
 									<div class="tp-layer-inner-rotation   rs-slideloop" data-easing="Power3.easeInOut" data-speed="5" data-xs="-10" data-xe="10" data-ys="0" data-ye="0">
-										<img src="images/babbysitter-slider-cloud-1a.png" alt="" data-ww="166.9390243902439" data-hh="486">
+										<a href="#">
+											<img src="images/babbysitter-slider-cloud-1a.png" alt="" data-ww="166.9390243902439" data-hh="486">
+										</a>
 									</div>
 								</div>
 								
@@ -291,6 +303,92 @@
 				</div>
 			</div>
 
+		<div class="mainWrap without_sidebar" style="background:#70bc4f;">
+				<div class="main">
+					<div class="content" style="padding-top:40px;">
+
+						<section class="no_padding">
+							<div class="container">
+
+								<section class="post tribe_events_wrapper">
+									<article class="post_content">
+										<div id="tribe-events-pg-template">
+											<div id="tribe-events" class="tribe-no-js">
+												<div class="tribe-events-before-html"></div>
+												<span class="tribe-events-ajax-loading">
+													<img class="tribe-events-spinner-medium" src="js/vendor/the-events-calendar/resources/images/tribe-loading.gif" alt="Loading Events"/>
+												</span>
+												<div id="tribe-events-content-wrapper" class="tribe-clearfix">
+													<div id="tribe-events-content" class="tribe-events-list">
+<!--														<h2 class="tribe-events-page-title">Sobre Nós</h2>-->
+														<div id="tribe-events-header" data-title="Upcoming Events | Party | Event Categories | The Lucky Pint &#8211; Irish tavern" data-startofweek="1" data-view="list" data-baseurl="#">
+															<h3 class="tribe-events-visuallyhidden">Events List Navigation</h3>
+															<ul class="tribe-events-sub-nav">
+																<li class="tribe-events-nav-previous <tribe-ev></tribe-ev>ents-nav-left tribe-events-past">
+																	<a href="#" rel="prev">
+																		<span>&laquo;</span> Previous Events
+																	</a>
+																</li>
+															</ul>
+														</div>
+														<div class="tribe-events-loop vcalendar">
+															<span class='tribe-events-list-separator-month'>
+																<span style="background:#70bc4f;"><h2 class="tribe-events-page-title" style="display:inline-block;color:#fff;">Sobre Nós</h2></span>
+															</span>
+															<div class=" vevent type-tribe_events tribe-clearfix tribe-events-category-party tribe-events-category-private   tribe-events-first">
+																<div class="tribe-events-event-image">
+																	<a href="features-tools-events-calendar-single.html" title="">
+																		<img src="images/300x193.png" alt="" title=""/>
+																	</a>
+																</div>
+																<div class="tribe-events-list-event-description tribe-events-content description entry-summary">
+																	<p style="color:#fff;">
+																		O Salão de Cabeleireiro Infantil JojoKids nasceu da ideia de não ser só mais um salão voltado
+
+																		para as crianças e adolescentes, mas sim um salão e com muitos diferenciais.
+																		<br>O Salão de Beleza JojoKids é exclusivo e personalizado, no qual as crianças se interagem com
+																		ambientes lúdicos e tematizados com personagens que fazem a criança se voltar ao cotidiano.
+																		Nossos profissionais são capacitados e treinados para que a criança se sinta em seu mundo,
+																		com o intuito de realizar serviços com todo profissionalismo e carinho que o público infanto-
+																		juvenil merece.
+																		<br>Aqui nossos serviços vão desde o Primeiro Corte do cabelinho do bebê com certificado e
+																		mechinha, desde o penteado “tererê” ou Penteados Infantis para ocasiões formais e especiais.
+																	</p>
+																</div>
+															</div>
+														</div>
+												<section class="no_margin no_padding">
+													<div class="container">
+														<div class="masonryWrap">
+															<section class="masonry isotope" data-columns="4">
+																<article class="isotopeElement post_format_standard odd">
+																	<div class="isotopePadding">
+																		<div class="thumb hoverIncrease" data-image="images/globo-thumb.jpg"  data-title="Globo Bem Estar" data-height="295"></div>
+																	</div>
+																</article>
+															</section>
+														</div>
+													</div>
+												</section>
+													</div>
+													<div class="tribe-clear"></div>
+												</div>
+												<div class="tribe-events-after-html"></div>
+											</div>
+										</div>
+									</article>
+								</section>
+
+							</div>
+						</section>
+
+					</div>
+
+				</div>
+			</div>
+		
+		
+		
 			<!-- 
 					VIDEO AQUI
 			 -->
@@ -310,24 +408,15 @@
 													<img src="images/reportagem/globo1.jpg" >
 													<div class="thumb hoverIncrease" data-image="images/reportagem/globo2.jpg" data-title="Jojo Kids" style="display:none;" >
 													<img src="images/reportagem/globo2.jpg">
-													<div class="thumb hoverIncrease" data-image="images/reportagem/globo3.jpg" data-title="Jojo Kids" style="display:none;" style="">
-													<img src="images/reportagem/globo3.jpg">
-													<div class="thumb hoverIncrease" data-image="images/reportagem/globo4.jpg" data-title="Jojo Kids" style="display:none;">
-													<img src="images/reportagem/globo4.jpg">
-												</div>		
+                                                    <div class="thumb hoverIncrease" data-image="images/reportagem/globo3.jpg" data-title="Jojo Kids" style="display:none;" style="">
+                                                    <img src="images/reportagem/globo3.jpg">
+                                                    <div class="thumb hoverIncrease" data-image="images/reportagem/globo4.jpg" data-title="Jojo Kids" style="display:none;">
+                                                        <img src="images/reportagem/globo4.jpg">
+												    </div>		
                                                 </div>
                                                 </div>
                                             </div>
                                         </div>
-<!--
-													<div class="sc_video_player" data-width="100%" data-height="295">
-														<div class="sc_video_player_title">
-														</div>
-														<div class="sc_video_frame sc_video_play_button" data-video="&lt;iframe class=&quot;video_frame&quot; src=&quot;http://youtube.com/embed/hj4fTaQuvVw?autoplay=1&quot; width=&quot;100%&quot; height=&quot;295&quot; frameborder=&quot;0&quot; webkitAllowFullScreen=&quot;webkitAllowFullScreen&quot; mozallowfullscreen=&quot;mozallowfullscreen&quot; allowFullScreen=&quot;allowFullScreen&quot;&gt;&lt;/iframe&gt;">
-															<img alt="" src="images/globo-thumb.jpg" style="width:1280px;heigth:720px;">
-														</div>
-													</div>
--->
 												<h4 class="xs-text-center">
 												<a href="#" >Reportagem Globo - Bem Estar</a>
 												</h4>
@@ -343,16 +432,15 @@
 										</article>
 										<article class="isotopeElement post_format_standard even flt_71">
 											<div class="isotopePadding">
-												<!-- <div class="thumb hoverIncrease" data-image="images/2000x1537.png" data-title="Physical Activity Keeps Kids Healthy">
-													<img alt="Physical Activity Keeps Kids Healthy" src="images/1150x647.png">
-												</div> -->
-												<div class="sc_video_player" data-width="100%" data-height="295">
+												<div class="sc_video_player" data-width="100%" >
 														<div class="sc_video_player_title">
 														</div>
-														<div class="sc_video_frame sc_video_play_button" data-video="&lt;iframe class=&quot;video_frame&quot; src=&quot;https://www.youtube.com/embed/J6d0iprUUgE?autoplay=1&quot; width=&quot;100%&quot; height=&quot;295&quot; frameborder=&quot;0&quot; webkitAllowFullScreen=&quot;webkitAllowFullScreen&quot; mozallowfullscreen=&quot;mozallowfullscreen&quot; allowFullScreen=&quot;allowFullScreen&quot;&gt;&lt;/iframe&gt;">
-															<img alt="" src="images/gazeta-thumb.jpg" >
+														<div class="sc_video_frame sc_video_play_button" data-video="&lt;iframe class=&quot;video_frame&quot; src=&quot;https://www.youtube.com/embed/J6d0iprUUgE?autoplay=1&quot; width=&quot;100%&quot; height=&quot;295&quot; frameborder=&quot;0&quot; webkitAllowFullScreen=&quot;webkitAllowFullScreen&quot; mozallowfullscreen=&quot;mozallowfullscreen&quot; allowFullScreen=&quot;allowFullScreen&quot;&gt;&lt;/iframe&gt;" style="309px;">
+															<img alt="" src="images/gazeta-thumb.jpg" class="resize">
 														</div>
 													</div>
+                                            
+                                                
 												<h4 class="xs-text-center">
 												<a href="#" >Reportagem Gazeta - Você Bonita</a>
 												</h4>
@@ -401,6 +489,54 @@
 												</div>
 											</div>
 										</li>
+										
+										<li class="sc_testimonials_item swiper-slide">
+											<div class="sc_testimonials_item_content">
+												<div class="sc_testimonials_item_quote">
+													<div class="sc_testimonials_item_text">
+														Já seguia no face e não me arrependi, Tia Tania é uma graça ..todos muito simpáticos, fomos muito bem recebidas e atendidas...
+													</div>
+												</div>
+												<div class="sc_testimonials_item_author">
+													<div class="sc_testimonials_item_avatar">
+														<img alt='' src='images/no-ava.png' srcset='images/no-ava.png' class='avatar avatar-50 photo'/>
+													</div>
+													<div class="sc_testimonials_item_name">Mariana Mota</div>
+													<!-- <div class="sc_testimonials_item_position">Mãe</div> -->
+												</div>
+												<div class="sc_testimonials_item_object">
+													<div class="object"> </div>
+												</div>
+											</div>
+										</li>
+										
+										<li class="sc_testimonials_item swiper-slide">
+											<div class="sc_testimonials_item_content">
+												<div class="sc_testimonials_item_quote">
+													<div class="sc_testimonials_item_text">
+														Excelente!
+													Bem melhor do que é retratado nas redes sociais.
+													Muito organizado.
+													Ambiente totalmente infantil, higiênico e confortável.
+													Proficionais treinados a atender seus clientes mirins com toda paciência, carinho e dedicação.
+													É o salão dos sonhos...
+													Meus pequenos adoram!!!
+													</div>
+												</div>
+												<div class="sc_testimonials_item_author">
+													<div class="sc_testimonials_item_avatar">
+														<img alt='' src='images/no-ava.png' srcset='images/no-ava.png' class='avatar avatar-50 photo'/>
+													</div>
+													<div class="sc_testimonials_item_name">Silvany Ferraz</div>
+													<!-- <div class="sc_testimonials_item_position">Mãe</div> -->
+												</div>
+												<div class="sc_testimonials_item_object">
+													<div class="object"> </div>
+												</div>
+											</div>
+										</li>
+										
+										
 										<li class="sc_testimonials_item swiper-slide">
 											<div class="sc_testimonials_item_content">
 												<div class="sc_testimonials_item_quote">
@@ -413,7 +549,7 @@
 														<img alt='' src='images/no-ava.png' srcset='images/no-ava.png' class='avatar avatar-50 photo'/>
 													</div>
 													<div class="sc_testimonials_item_name">Ana Paula Carvalho</div>
-													<div class="sc_testimonials_item_position">Mãe</div>
+<!--													<div class="sc_testimonials_item_position">Mãe</div>-->
 												</div>
 												<div class="sc_testimonials_item_object">
 													<div class="object"> </div>
@@ -570,12 +706,19 @@
 							</div>
 							<div class="contactAddress">
 								<address class="addressRight">
-									Telefone: (11)2364-6011<br>
+									Telefone: (11) 2364-6011<br>
 									WhatsApp: (11)99118-7766</address>
 								<address class="addressLeft">
-									Endereço: Rua Marquês de Abrantes, 354 - Belém<br>
+									Endereço: Rua Julio de Castilhos, 821 – Belém<br>
 								Cep: 03060-020 </address>
 							</div>
+								
+							<div style="margin-bottom:15px;">
+								Horário de Funcionamento: <br>
+								De Terca a sexta-feira das 10 as 19hs <br>
+								Sabado das 09:00 as 19hs
+							</div>
+							
 							<div class="contactTtextLine">Acompanhe nosso trabalho nas Redes Sociais!</div>
 							<div class="contactShare">
 								<ul>
